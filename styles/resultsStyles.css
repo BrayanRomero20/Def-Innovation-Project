@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(232, 232, 232);
+}
+
+ul{
+    list-style: none;
+}
+
+.li_menu{
+    font-size: 32px;
+}
+
+.ul_second{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin: 0;
+    padding: 8px 0px;
+}
+
+.ul_second li{
+    margin: 5px 20px;
+}
+
+a:hover{
+    color:rgb(201, 201, 201);
+}
+
+.section_first{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.title_result{
+    color: black;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 45px;
+    margin: 30px 40px;
+    font-weight: 700;
+}
+
+.cont_result{
+    background: linear-gradient(rgb(0, 255, 255), rgb(11, 109, 255));
+    height: 250px;
+    width: 70%;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    align-self: center;
+    box-shadow: 4px 4px 4px rgb(28, 28, 28);
+}
+
+.logo_busqueda{
+    height: 120px;
+    width: 120px;
+    margin: 0px 40px;
+}
+
+.element_result{
+    color: black;
+    font-size: 30px;
+    margin: 0px 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px rgb(85, 85, 85);
+}
+
+.element_result:hover{
+    color: rgb(227, 227, 227);
+    text-shadow: 1px 1px 1px rgb(52, 52, 52);
+}
+
+.cont_princ{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: radial-gradient(circle, rgb(23, 99, 252), black);
+}
+
+.button_volver{
+    position: absolute;
+    bottom: 130px;
+    right: 50px;
+}
+
+.no_results{
+    align-self: center;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    font-size: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+

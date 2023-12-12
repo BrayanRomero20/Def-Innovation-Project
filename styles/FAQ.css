@@ -1,0 +1,143 @@
+html{
+   scroll-behavior: smooth;     
+}
+
+body{
+    margin: 0;
+    background: radial-gradient(circle, aqua, rgb(144, 255, 190));
+    text-shadow: 1px 1px 1px rgb(190, 190, 190);
+}
+
+.ul_second{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin: 0;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    position: relative;
+    z-index: 2;
+}
+
+.ul_second li{
+    margin: 5px 20px;
+}
+
+.element2{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    font-family:sans-serif;
+}
+
+.element2:hover{
+    color: rgb(192, 192, 192);
+}
+
+
+.intro{
+    margin: 40px 0px;
+    padding: 0px 100px;
+}
+
+.intro h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+
+.intro p{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.preguntas{
+    display: flex;
+    flex-direction: column;
+}
+
+.pregunta p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+
+.pregunta button{
+    font-size: 25px;
+    margin-left: 8px;
+}
+
+.pregunta_cont{
+    padding: 10px 150px;
+    background: rgba(255, 255, 255, 0.75);
+    margin: 15px 0px;
+}
+
+.pregunta{
+    display: flex;
+}
+
+.desplegar {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.respuesta {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.8s ease-in;
+}
+
+
+.respuesta p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.respuesta.mostrando {
+    max-height: 1000px; /* Establece una altura máxima suficientemente alta */
+}
+
+
+
+
+.footer{
+    height: 42px;
+    width: 100%;
+    background: black;
+    color: white;
+    text-align: center;
+    padding-top: 12px;
+    box-sizing: border-box;
+    display: flex;
+    filter: brightness(0.9);
+}
+
+.footer img{
+    height: 20px;
+    width: 20px;
+    margin-left: 30px;
+}
+
+.footer p{
+    font-size: 16px;
+    margin: 0px 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 1px 2px 2px black;
+}
+
+.footer a{
+    margin-left: 79%;
+    text-shadow: 1px 2px 3px black;
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+.a_footer:hover{
+    color: rgb(228, 228, 228);
+}

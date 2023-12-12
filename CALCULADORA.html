@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Huella Ecológica</title>
+    <link rel="icon" href="images/logo.png" type="image/jpg">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/CALCULADORA.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  </head>
+  <body data-aos="fade-zoom-in"
+  data-aos-easing="ease-in-back"
+  data-aos-delay="300"
+  data-aos-offset="0">
+    <div class="video-container">
+        <video autoplay muted loop id="video-fondo">
+            <source src="videos/glaciar.webm" type="video/webM">
+        </video>
+        <div class="cont_empezar">
+          <button class="empezar">Comenzar ahora</button>
+        </div>
+        <div class="contenido">
+            <div class="cont_h3">
+              <h3 class="question">¿Cuántos kilómetros en automóvil recorres en promedio por semana?</h3>
+            </div>
+            <p class="alternative">Entre 0km a 7km</p>
+            <p class="alternative">Entre 7km a 10km</p>
+            <p class="alternative">Entre 10km a 13km</p>
+            <p class="alternative">Entre 13km a 15km</p>
+            <p class="alternative">15km a más</p>
+            <button class="button ant">Anterior</button>
+            <button class="button sig">Siguiente</button>
+            <div class="toolbar">
+              <div class="toolbarItem" data-progress="0"></div>
+            </div>
+        </div>
+        <div class="cont_result">
+          <img class="img_result">
+          <h3 class="resultado_Title"></h3>
+          <p class="resultado_Description"></p>
+          <a href="CONSEJOS.html" class="consejos">Ver consejos</a>
+        </div>
+        <div>
+          <a class="boton_volver" href="index.php">Volver al inicio</a>
+        </div>
+    </div>
+  <script src="Js/CALCULADORA.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        duration: 1300,
+        once: true
+    });
+</script>
+  </body>
+</html>

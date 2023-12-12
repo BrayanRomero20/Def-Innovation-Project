@@ -1,0 +1,128 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    background: rgb(41, 41, 41);
+}
+
+ul{
+    list-style: none;
+}
+
+.li_menu{
+    font-size: 32px;
+}
+
+.element2{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    font-family:sans-serif;
+}
+
+.element2:hover{
+    color: rgb(192, 192, 192);
+}
+
+.ul_second{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin: 0;
+    padding: 8px 0px;
+}
+
+.ul_second li{
+    margin: 5px 20px;
+}
+
+
+.intro{
+    background: linear-gradient(rgb(230, 230, 230), rgb(255, 255, 255), rgb(230, 230, 230));
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 40px 100px;
+    box-sizing: border-box;
+    text-shadow: 1px 1px 1px rgb(172, 172, 172);
+}
+
+.title_intro{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    margin: 0;
+}
+
+.description_intro{
+    font-family:sans-serif;
+    font-size: 18px;
+}
+
+.cont_politicas div{
+    outline: 1px solid black;
+    padding: 40px 100px;
+    line-height: 1.5;
+    text-shadow: 1px 1px 1px rgb(172, 172, 172);
+    margin: 10px 0px;
+    background: linear-gradient(to left, rgb(255, 255, 255), rgb(230, 230, 230));
+}
+
+.cont_politicas div h3{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    margin: 0;
+    margin-bottom: 14px;
+}
+
+.cont_politicas div p{
+    font-family:sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+.cont_politicas div:nth-child(5){
+    padding-bottom: 40px;
+}
+
+.footer{
+    height: 42px;
+    width: 100%;
+    background: black;
+    color: white;
+    text-align: center;
+    padding-top: 12px;
+    box-sizing: border-box;
+    display: flex;
+    filter: brightness(0.9);
+}
+
+.footer img{
+    height: 20px;
+    width: 20px;
+    margin-left: 30px;
+}
+
+.footer p{
+    font-size: 16px;
+    margin: 0px 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 1px 2px 2px black;
+}
+
+.footer a{
+    margin-left: 79%;
+    text-shadow: 1px 2px 3px black;
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+
+
+.a_footer:hover{
+    color: rgb(228, 228, 228);
+}
